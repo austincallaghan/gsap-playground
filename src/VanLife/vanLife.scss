@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.van-life-container {
+  visibility: hidden;
+
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, #222222, #8ba7b9);
+    z-index: -1;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    min-height: 10vh;
+    align-items: center;
+  }
+
+  #logo {
+    grid-column: 2/3;
+    font-size: 30px;
+    color: white;
+  }
+  .burger {
+    justify-self: end;
+  }
+
+  section {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero {
+    height: 80%;
+    width: 100%;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 10% 60%;
+    }
+  }
+
+  .hero::after {
+    content: "";
+    background: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.1;
+  }
+
+  .headline {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    font-size: 100px;
+    color: white;
+    transform: translate(-10%, -10%);
+    z-index: 4;
+  }
+}

@@ -1,0 +1,30 @@
+.banner {
+  background: center top transparent no-repeat url("../imageRev.jpg");
+  background-size: contain;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50em;
+  // z-index: 1;
+}
+
+.header-fix {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 100px;
+  z-index: 9999;
+  background: #bbbbbb;
+  text-align: center;
+  font-size: 2em;
+}
+
+.page-content {
+  background: #eed8bd;
+  margin: 10em auto;
+  padding: 5% 10% 10%;
+  position: relative;
+  font-size: 2em;
+  // z-index: 3;
+}

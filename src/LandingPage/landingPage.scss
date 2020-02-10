@@ -1,0 +1,56 @@
+.landing-container {
+  padding: 9em;
+
+  h1 {
+    font-size: 5em;
+    width: 25%;
+    color: red;
+    line-height: 1em;
+  }
+
+  button {
+    background: none;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1.7em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+  }
+
+  .panel {
+    position: absolute;
+    width: 55%;
+    bottom: 0;
+    right: 0;
+    background: #eaeaea;
+    box-sizing: border-box;
+    padding: 15% 0%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+
+    img {
+      width: 300px;
+      float: left;
+      opacity: 0;
+      transform: translateY(-200px);
+    }
+
+    p {
+      font-size: 1.9em;
+      width: 80%;
+      opacity: 0;
+    }
+
+    .box {
+      border: 5px solid lightgrey;
+      width: 65%;
+      height: 35%;
+      position: absolute;
+      left: -7%;
+      top: 20%;
+      opacity: 0;
+      z-index: -1;
+      transform: scale(0);
+    }
+  }
+}

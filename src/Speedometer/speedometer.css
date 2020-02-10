@@ -1,0 +1,147 @@
+.speedometer--container,
+.speedometer--svg {
+  position: relative;
+  width: 430px;
+}
+
+.speedometer--outer-container,
+.speedometer--outer-container--track {
+  top: 39px;
+  left: 39px;
+  position: absolute;
+  height: 330px;
+  width: 330px;
+}
+
+.speedometer--outer-container,
+.speedometer--inner-container,
+.speedometer--white-border,
+.speedometer--hidden {
+  border-radius: 100%;
+  transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 2s ease-out;
+  -moz-transition: -moz-transform 2s ease-out;
+  -o-transition: -o-transform 2s ease-out;
+  -ms-transition: -ms-transform 2s ease-out;
+  transition: transform 2s ease;
+}
+
+.speedometer--container {
+  margin: 0 auto;
+  overflow: hidden;
+  height: 220px;
+  background: white;
+}
+
+.speedometer--svg {
+  z-index: 30;
+}
+
+.speedometer--outer-grey,
+.speedometer--outer-track {
+  height: 165px;
+  width: 330px;
+}
+
+.outer-one {
+  z-index: 14;
+}
+
+.outer-two {
+  z-index: 12;
+}
+
+.outer-three {
+  z-index: 10;
+}
+
+.inner-one {
+  z-index: 24;
+}
+
+.inner-two {
+  z-index: 22;
+}
+
+.inner-three {
+  z-index: 20;
+}
+
+.speedometer--hidden,
+.speedometer--outer-container--track {
+  background: rgba(235, 235, 235);
+}
+
+.speedometer--outer-grey,
+.speedometer--inner-grey {
+  border-radius: 230px 230px 0 0;
+}
+
+.speedometer--outer-track,
+.speedometer--inner-track {
+  border-radius: 0 0 230px 230px;
+}
+
+.speedometer--inner-container {
+  top: 71px;
+  left: 72px;
+  position: absolute;
+  height: 266px;
+  width: 266px;
+
+  -webkit-transition: -webkit-transform 2s ease-out;
+  -moz-transition: -moz-transform 2s ease-out;
+  -o-transition: -o-transform 2s ease-out;
+  -ms-transition: -ms-transform 2s ease-out;
+  transition: transform 2s ease;
+}
+
+.speedometer--inner-grey,
+.speedometer--inner-track {
+  height: 132px;
+  width: 266px;
+}
+
+.speedometer--white-border {
+  top: 66px;
+  left: 66px;
+  position: absolute;
+  height: 276px;
+  width: 276px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+}
+
+.speedometer--hidden {
+  height: 265px;
+  width: 263px;
+}
+
+.navy {
+  background: rgb(0, 23, 87);
+}
+
+.green {
+  background: rgb(177, 224, 144);
+}
+
+.orange {
+  background: rgb(241, 193, 102);
+}
+
+.page--container section {
+  width: 200px;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.2);
+  padding: 10px;
+  margin: 10px;
+}
+.page--container section:hover {
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+.page--container section:active {
+  background: rgba(68, 68, 68, 0.1);
+}

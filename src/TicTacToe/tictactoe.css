@@ -1,0 +1,15 @@
+.square {
+  border: 1px solid black;
+  height: 99px;
+  width: 99px;
+}
+
+.board {
+  height: 299px;
+  width: 299px;
+  border: solid 1px black;
+}
+
+.row {
+  display: flex;
+}

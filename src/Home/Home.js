@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom'
 
-class App extends Component {
+class Home extends Component {
   render() {
     return <div className="container">Pick a route my dude
         <div>
@@ -22,4 +22,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;
